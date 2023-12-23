@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Asap:wght@900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body class="bg-wd-black">
     <header class="h-[400px] w-full flex flex-col items-center justify-center text-primary bg-hero-pattern bg-center bg-cover bg-no-repeat">
@@ -17,15 +17,94 @@
       <h2 class="text-[32px] uppercase font-medium ">My photo gallery</h2>
     </header>
 
-    <main>
-      <section></section>
-      <section></section>
-      <section></section>
+    <main class="w-full flex flex-col px-8">
+      <section class="h-auto mt-12">
+
+        <div class="relative flex items-center mb-12">
+          <div class="flex-grow border-t border-primary mr-10"></div>
+          <span class="flex-shrink font-semibold text-primary text-4xl">Features</span>
+          <div class="flex-grow border-t border-primary ml-10"></div>
+        </div>
+
+        <div class="flex mb-6">
+          <image src="../assets/features/image-bootcamp-feature-1.png" class=""></image>
+          <div class="flex flex-col ml-6 p-6 bg-wd-darkgrey">
+            <h3 class="text-white text-2xl font-semibold">City Skyline</h3>
+            <p class="text-white pt-4 text-2xl font-light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed euismod diam. In pretium in odio at pretium. 
+              Aenean in suscipit enim. Aliquam lacus nulla, dapibus a eleifend sed, gravida sit amet justo. Nulla vel diam at orci 
+              semper mattis.
+            <p>
+          </div>
+        </div>
+
+        <div class="flex flex-row-reverse">
+          <image src="../assets/features/image-bootcamp-feature-2.png" class=""></image>
+          <div class="flex flex-col mr-6 p-6 bg-wd-darkgrey">
+            <h3 class="text-white text-2xl font-semibold">Corporate Stockphoto</h3>
+            <p class="text-white pt-4 text-2xl font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed euismod diam. In pretium in odio at pretium. Aenean in suscipit enim. Aliquam lacus nulla, dapibus a eleifend sed, gravida sit amet justo. Nulla vel diam at orci semper mattis.<p>
+          </div>
+        </div>
+
+      </section>
+      <section class="h-auto mt-12">
+        <div class="relative flex items-center mb-12">
+          <div class="flex-grow border-t border-primary mr-10"></div>
+          <span class="flex-shrink font-semibold text-primary text-4xl">My Work</span>
+          <div class="flex-grow border-t border-primary ml-10"></div>
+        </div>
+
+        <div class="w-full grid grid-cols-3 place-items-center gap-6">
+          <image src="../assets/grid/image-bootcamp-1.png" class="w-full object-cover">
+          <image src="../assets/grid/image-bootcamp-2.png" class="w-full object-cover">
+          <image src="../assets/grid/image-bootcamp-3.png" class="w-full object-cover">
+          <image src="../assets/grid/image-bootcamp-4.png" class="w-full object-cover">
+          <image src="../assets/grid/image-bootcamp-5.png" class="w-full object-cover">
+          <image src="../assets/grid/image-bootcamp-6.png" class="w-full object-cover">
+        </div>
+
+      </section>
+      <section class="h-auto mt-12">
+        <div class="relative flex items-center mb-12">
+          <div class="flex-grow border-t border-primary mr-10"></div>
+          <span class="flex-shrink font-semibold text-primary text-4xl">More Photo</span>
+          <div class="flex-grow border-t border-primary ml-10"></div>
+        </div>
+      </section>
+
     </main>
 
-    <footer>
-      <section></section>
-      <section></section>
+    <footer class="flex flex-col text-white justify-center px-8">
+      <section class="flex justify-between mt-[120px]">
+        <div class="flex flex-col gap-6 w-1/3">
+          <h3 class="text-[32px] font-bold">Jane Doe</h3>
+          <p>Hello, beautiful passerby. I’m Jane Doe. A passionate photographer. I love to bla bla bla.... bla bla bla.... bla bla bla.... bla bla bla.... bla bla bla.... bla bla bla.... bla bla bla....
+            I’m available for hiring.
+          </p>
+
+          <form action="" class="flex flex-col gap-4">
+            <input type="email" name="email" placeholder="Enter your email" class="py-[14px] pl-4">
+            <button type="submit" class="bg-primary text-[#010101] w-1/2 px-[33px] py-3">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+          </form>
+
+        </div>
+        <div class="flex flex-col gap-6 w-1/3">
+          <h3 class="text-[32px] font-bold">Get In Touch!</h3>
+          <p>MBK Tower 20th Floor, 444, Phaya Thai Rd, Wang Mai, Pathum Wan, Bangkok 10330</p>
+          <p>Email: jane.doe@realmail.com</p>
+          <div class="flex flex-row gap-4 text-wd-brand mt-6">
+            <i class="fa-brands fa-facebook fa-2xl "></i>
+            <i class="fa-brands fa-instagram fa-2xl"></i>
+            <i class="fa-brands fa-x-twitter fa-2xl"></i>
+          </div>
+        </div>
+      </section>
+      <section class="h-auto mt-12">
+        <div class="relative flex items-center mb-12">
+          <div class="flex-grow border-t border-primary"></div>
+        </div>
+        <p class="text-center justify-center my-12 font-bold">© 2023, Jane Doe. All Rights Reserved.</p>
+      </section>
     </footer>
 
   </body>
