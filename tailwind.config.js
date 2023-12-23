@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#DEF81D",
+        primary: "#FFC107",
         "wd-white": "#FFFFFF",
         "wd-grey": "#999999",
         "wd-darkgrey": "#2D2D2D",
@@ -15,7 +15,7 @@ module.exports = {
           "linear-gradient(to left, rgba(0,0,0, 0), rgba(0,0,0,1)), url('../assets/hero/hero.jpg')",
       },
       fontFamily: {
-        "sans": ["poppins", "Arial", "sans-serif"],
+        sans: ["poppins", "Arial", "sans-serif"],
       },
     },
   },
